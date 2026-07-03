@@ -1,5 +1,6 @@
 import Image from "next/image";
 
+// Force rebuild
 const navLinks = [
   { label: "Programs", href: "#programs" },
   { label: "Placement", href: "#placement" },
