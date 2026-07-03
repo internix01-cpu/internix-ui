@@ -19,7 +19,7 @@ const experienceStats = [
 
 const services = [
   {
-    title: "AI Development Training",
+    title: "AI Development Training ",
     description:
       "Practical preparation in Python, APIs, LLM workflows, automation, model integration, and AI project development.",
   },
