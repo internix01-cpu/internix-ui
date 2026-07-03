@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 760" role="img" aria-labelledby="title desc">
+  <title id="title">AI talent network</title>
+  <desc id="desc">Vector illustration of an AI network connecting skills, people, and companies.</desc>
+  <rect width="1100" height="760" rx="50" fill="#f8fafd"/>
+  <circle cx="550" cy="380" r="118" fill="#e8f0fe" stroke="#4285f4" stroke-width="5"/>
+  <circle cx="550" cy="380" r="42" fill="#4285f4"/>
+  <g fill="#fff" stroke-width="5">
+    <circle cx="236" cy="210" r="54" stroke="#ea4335"/>
+    <circle cx="870" cy="228" r="54" stroke="#34a853"/>
+    <circle cx="226" cy="560" r="54" stroke="#fbbc04"/>
+    <circle cx="876" cy="562" r="54" stroke="#4285f4"/>
+    <circle cx="550" cy="130" r="48" stroke="#34a853"/>
+    <circle cx="550" cy="634" r="48" stroke="#ea4335"/>
+  </g>
+  <g stroke="#dadce0" stroke-width="6" stroke-linecap="round">
+    <path d="M286 236l166 92"/>
+    <path d="M818 256L648 332"/>
+    <path d="M278 534l176-100"/>
+    <path d="M824 536L648 430"/>
+    <path d="M550 178v84"/>
+    <path d="M550 498v88"/>
+  </g>
+  <g stroke="#4285f4" stroke-width="5" fill="none" stroke-linecap="round">
+    <path d="M500 352c36-36 64-36 100 0"/>
+    <path d="M500 408c36 36 64 36 100 0"/>
+    <path d="M510 380h80"/>
+  </g>
+  <g font-family="Arial, Helvetica, sans-serif" font-weight="700" text-anchor="middle">
+    <text x="550" y="390" font-size="28" fill="#fff">AI</text>
+    <text x="236" y="220" font-size="22" fill="#ea4335">Skills</text>
+    <text x="870" y="238" font-size="22" fill="#34a853">Roles</text>
+    <text x="226" y="570" font-size="22" fill="#fbbc04">Prep</text>
+    <text x="876" y="572" font-size="22" fill="#4285f4">Match</text>
+    <text x="550" y="140" font-size="20" fill="#34a853">Learn</text>
+    <text x="550" y="644" font-size="20" fill="#ea4335">Grow</text>
+  </g>
+</svg>

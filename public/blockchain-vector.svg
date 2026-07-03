@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 760" role="img" aria-labelledby="title desc">
+  <title id="title">Blockchain career network</title>
+  <desc id="desc">Vector illustration of connected blocks representing blockchain and Web3 careers.</desc>
+  <rect width="1100" height="760" rx="50" fill="#f8fafd"/>
+  <g stroke="#dadce0" stroke-width="5" fill="none" stroke-linecap="round">
+    <path d="M280 238l238 128"/>
+    <path d="M820 238L582 366"/>
+    <path d="M280 522l238-128"/>
+    <path d="M820 522L582 394"/>
+    <path d="M550 214v110"/>
+    <path d="M550 436v110"/>
+  </g>
+  <g>
+    <rect x="440" y="310" width="220" height="140" rx="24" fill="#e8f0fe" stroke="#4285f4" stroke-width="5"/>
+    <rect x="170" y="160" width="220" height="140" rx="24" fill="#fce8e6" stroke="#ea4335" stroke-width="5"/>
+    <rect x="710" y="160" width="220" height="140" rx="24" fill="#e6f4ea" stroke="#34a853" stroke-width="5"/>
+    <rect x="170" y="460" width="220" height="140" rx="24" fill="#fef7e0" stroke="#fbbc04" stroke-width="5"/>
+    <rect x="710" y="460" width="220" height="140" rx="24" fill="#e8f0fe" stroke="#4285f4" stroke-width="5"/>
+  </g>
+  <g font-family="Arial, Helvetica, sans-serif" font-weight="700" text-anchor="middle">
+    <text x="550" y="382" font-size="30" fill="#1a73e8">Web3</text>
+    <text x="550" y="418" font-size="22" fill="#5f6368">Careers</text>
+    <text x="280" y="238" font-size="24" fill="#ea4335">Smart</text>
+    <text x="280" y="268" font-size="24" fill="#ea4335">Contracts</text>
+    <text x="820" y="238" font-size="24" fill="#34a853">dApps</text>
+    <text x="280" y="538" font-size="24" fill="#fbbc04">Wallets</text>
+    <text x="820" y="538" font-size="24" fill="#4285f4">Frontend</text>
+  </g>
+</svg>

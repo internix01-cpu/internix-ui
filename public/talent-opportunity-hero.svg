@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 820" role="img" aria-labelledby="title desc">
+  <title id="title">Internix talent and opportunity network</title>
+  <desc id="desc">Vector illustration of candidates, companies, and technology opportunities connected through a clean network.</desc>
+  <rect width="1200" height="820" rx="54" fill="#f8fafd"/>
+  <circle cx="192" cy="164" r="86" fill="#e8f0fe"/>
+  <circle cx="1012" cy="170" r="112" fill="#fce8e6"/>
+  <circle cx="964" cy="650" r="118" fill="#e6f4ea"/>
+  <path d="M130 548C266 372 414 304 574 344c169 42 292-26 458-176" fill="none" stroke="#dadce0" stroke-width="4"/>
+  <path d="M172 614c148-102 296-132 444-90 162 46 300 2 412-132" fill="none" stroke="#dadce0" stroke-width="4"/>
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M252 470h210v150H252z" fill="#fff" stroke="#dadce0" stroke-width="4"/>
+    <path d="M306 514h102M306 554h68" stroke="#1a73e8" stroke-width="12"/>
+    <path d="M738 206h214v150H738z" fill="#fff" stroke="#dadce0" stroke-width="4"/>
+    <path d="M790 252h108M790 292h74" stroke="#34a853" stroke-width="12"/>
+    <path d="M716 538h228v162H716z" fill="#fff" stroke="#dadce0" stroke-width="4"/>
+    <path d="M770 588h116M770 630h78" stroke="#fbbc04" stroke-width="12"/>
+  </g>
+  <g>
+    <circle cx="584" cy="400" r="96" fill="#fff" stroke="#dadce0" stroke-width="4"/>
+    <circle cx="584" cy="360" r="36" fill="#1a73e8"/>
+    <path d="M514 472c16-46 50-70 70-70s54 24 70 70" fill="#e8f0fe"/>
+    <path d="M514 472c16-46 50-70 70-70s54 24 70 70" fill="none" stroke="#1a73e8" stroke-width="4"/>
+  </g>
+  <g fill="#fff" stroke-width="4">
+    <circle cx="250" cy="470" r="18" stroke="#4285f4"/>
+    <circle cx="462" cy="470" r="18" stroke="#ea4335"/>
+    <circle cx="738" cy="356" r="18" stroke="#34a853"/>
+    <circle cx="952" cy="356" r="18" stroke="#fbbc04"/>
+    <circle cx="716" cy="538" r="18" stroke="#4285f4"/>
+    <circle cx="944" cy="538" r="18" stroke="#34a853"/>
+  </g>
+  <g fill="none" stroke-width="6" stroke-linecap="round">
+    <path d="M462 470l92-56" stroke="#4285f4"/>
+    <path d="M676 376l62-20" stroke="#34a853"/>
+    <path d="M676 430l40 108" stroke="#fbbc04"/>
+    <path d="M584 496v74" stroke="#ea4335"/>
+  </g>
+  <g font-family="Arial, Helvetica, sans-serif" font-weight="700">
+    <text x="116" y="108" font-size="34" fill="#4285f4">Talent</text>
+    <text x="874" y="124" font-size="34" fill="#ea4335">Hiring</text>
+    <text x="824" y="746" font-size="34" fill="#34a853">Opportunity</text>
+  </g>
+</svg>

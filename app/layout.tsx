@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
+import { SiteShell } from "./components";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -13,9 +14,10 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Internix | AI & Blockchain Career Placement",
+  metadataBase: new URL("https://www.internixconsultancy.com"),
+  title: "Internix | Connecting Talent with Opportunity",
   description:
-    "Internix trains, hires, and places candidates in AI development and blockchain development roles with placement support until offer letter.",
+    "Internix is a recruitment and internship consultancy connecting exceptional candidates with companies across AI, Blockchain, Web3, and technology roles.",
 };
 
 export default function RootLayout({
@@ -28,7 +30,9 @@ export default function RootLayout({
       lang="en"
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
-      <body className="min-h-full flex flex-col">{children}</body>
+      <body className="min-h-full">
+        <SiteShell>{children}</SiteShell>
+      </body>
     </html>
   );
 }
