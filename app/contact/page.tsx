@@ -28,9 +28,7 @@ export default function ContactPage() {
               <p>
                 <span className="font-semibold text-[#202124]">Email:</span> hello@internixconsultancy.com
               </p>
-              <p>
-                <span className="font-semibold text-[#202124]">Website:</span> www.internixconsultancy.com
-              </p>
+              
             </div>
           </div>
 
