@@ -40,11 +40,12 @@ export function Header() {
     <header className="sticky top-0 z-50 border-b border-[#e8eaed] bg-white">
       <div className="mx-auto flex min-h-16 max-w-7xl items-center justify-between gap-4 px-5 py-3">
         <Link href="/" className="flex items-center gap-2" aria-label="Internix home">
-          <span className="text-2xl font-bold tracking-normal">
+          {/* <span className="text-2xl font-bold tracking-normal">
             <span className="text-[#1a73e8]">Inter</span>
             <span className="text-[#202124]">nix</span>
             <span className="text-[#137333]">.</span>
-          </span>
+          </span> */}
+          <Image src="/internix-2.jpg" alt="Internix Logo" width={150} height={50} className="object-contain" />
         </Link>
 
         <nav className="hidden items-center gap-x-6 text-sm font-medium text-[#5f6368] md:flex">
@@ -98,10 +99,8 @@ export function Footer() {
     <footer className="border-t border-[#e8eaed] bg-[#f8fafd] text-[#202124]">
       <div className="mx-auto grid max-w-7xl gap-10 px-5 py-12 lg:grid-cols-[1fr_1.6fr]">
         <div>
-          <Link href="/" className="text-2xl font-bold" aria-label="Internix home">
-            <span className="text-[#1a73e8]">Inter</span>
-            <span className="text-[#202124]">nix</span>
-            <span className="text-[#137333]">.</span>
+          <Link href="/" className="inline-flex items-center" aria-label="Internix home">
+            <Image src="/internix-2.jpg" alt="Internix Logo" width={150} height={50} className="object-contain" />
           </Link>
           <p className="mt-5 max-w-md text-sm leading-7 text-[#5f6368]">
             Connecting talent with opportunity across AI, Blockchain, Web3, internships, and technology hiring.
