@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { footerGroups, navLinks } from "./content";
 
-const wordColors = ["#4285f4", "#ea4335", "#fbbc04", "#34a853"];
+const wordColors = ["#1a73e8", "#202124", "#137333", "#fbbc04"];
 
 type HeroProps = {
   eyebrow: string;
@@ -41,12 +41,9 @@ export function Header() {
       <div className="mx-auto flex min-h-16 max-w-7xl items-center justify-between gap-4 px-5 py-3">
         <Link href="/" className="flex items-center gap-2" aria-label="Internix home">
           <span className="text-2xl font-bold tracking-normal">
-            <span className="text-[#4285f4]">I</span>
-            <span className="text-[#ea4335]">n</span>
-            <span className="text-[#fbbc04]">t</span>
-            <span className="text-[#4285f4]">e</span>
-            <span className="text-[#34a853]">r</span>
-            <span className="text-[#ea4335]">nix</span>
+            <span className="text-[#1a73e8]">Inter</span>
+            <span className="text-[#202124]">nix</span>
+            <span className="text-[#137333]">.</span>
           </span>
         </Link>
 
@@ -102,12 +99,9 @@ export function Footer() {
       <div className="mx-auto grid max-w-7xl gap-10 px-5 py-12 lg:grid-cols-[1fr_1.6fr]">
         <div>
           <Link href="/" className="text-2xl font-bold" aria-label="Internix home">
-            <span className="text-[#4285f4]">I</span>
-            <span className="text-[#ea4335]">n</span>
-            <span className="text-[#fbbc04]">t</span>
-            <span className="text-[#4285f4]">e</span>
-            <span className="text-[#34a853]">r</span>
-            <span className="text-[#ea4335]">nix</span>
+            <span className="text-[#1a73e8]">Inter</span>
+            <span className="text-[#202124]">nix</span>
+            <span className="text-[#137333]">.</span>
           </Link>
           <p className="mt-5 max-w-md text-sm leading-7 text-[#5f6368]">
             Connecting talent with opportunity across AI, Blockchain, Web3, internships, and technology hiring.
