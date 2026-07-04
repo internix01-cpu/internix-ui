@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { footerGroups, navLinks } from "./content";
+import { MobileMenu } from "./mobile-menu";
 
 const wordColors = ["#1a73e8", "#202124", "#137333", "#fbbc04"];
 
@@ -62,45 +63,7 @@ export function Header() {
           </Link>
         </nav>
 
-        <details className="group relative md:hidden">
-          <summary
-            className="mobile-menu-summary flex h-11 w-11 cursor-pointer list-none items-center justify-center rounded-full border border-[#dadce0] bg-white transition hover:bg-[#f8fafd]"
-            aria-label="Open menu"
-          >
-            <span className="grid gap-1.5">
-              <span className="block h-0.5 w-5 rounded-full bg-[#3c4043] transition group-open:translate-y-2 group-open:rotate-45" />
-              <span className="block h-0.5 w-5 rounded-full bg-[#3c4043] transition group-open:opacity-0" />
-              <span className="block h-0.5 w-5 rounded-full bg-[#3c4043] transition group-open:-translate-y-2 group-open:-rotate-45" />
-            </span>
-          </summary>
-
-          <div className="absolute right-0 top-14 w-[min(88vw,340px)] overflow-hidden rounded-[24px] border border-[#e8eaed] bg-white p-3 shadow-[0_18px_48px_rgba(60,64,67,0.18)]">
-            <nav className="grid gap-1 text-base font-medium text-[#3c4043]">
-              {navLinks.map((link, index) => (
-                <Link
-                  key={link.href}
-                  href={link.href}
-                  className="flex items-center justify-between rounded-[18px] px-4 py-3 transition hover:bg-[#f8fafd] hover:text-[#1a73e8]"
-                >
-                  <span>{link.label}</span>
-                  <span
-                    className="h-2.5 w-2.5 rounded-full"
-                    style={{ backgroundColor: wordColors[index % wordColors.length] }}
-                  />
-                </Link>
-              ))}
-            </nav>
-            <Link href="/contact" className="btn-primary mt-3 w-full">
-              Contact us
-            </Link>
-            <Link href="/login" className="btn-secondary mt-2 w-full">
-              Login
-            </Link>
-            <Link href="/register" className="btn-secondary mt-2 w-full">
-              Register
-            </Link>
-          </div>
-        </details>
+        <MobileMenu />
       </div>
     </header>
   );
