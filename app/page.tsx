@@ -20,7 +20,7 @@ export default function Home() {
         eyebrow="Internix Consultancy"
         title="Connecting talent with opportunity."
         description="A positive career and hiring partner for candidates and companies across AI, Blockchain, Web3, software, internships, and placement support."
-        image="/talent-opportunity-hero.svg"
+        image="/home-hero.jpg"
         imageAlt="Technology team collaborating around AI and blockchain systems"
         primaryHref="/client"
         primaryLabel="Hire talent"
