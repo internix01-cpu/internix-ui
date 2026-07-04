@@ -7,6 +7,34 @@ export const navLinks = [
   { label: "Contact", href: "/contact" },
 ];
 
+export const candidateRegistrationFields = [
+  { name: "fullName", label: "Full name", type: "text", placeholder: "Enter candidate full name" },
+  { name: "email", label: "Email", type: "email", placeholder: "candidate@example.com" },
+  { name: "phone", label: "Phone", type: "tel", placeholder: "+91 98765 43210" },
+  { name: "gender", label: "Gender", type: "select", placeholder: "Select gender" },
+  { name: "coordinator", label: "Coordinator", type: "text", placeholder: "Coordinator name" },
+  { name: "companyHiredIn", label: "Company hired in", type: "text", placeholder: "Hired company name" },
+  { name: "password", label: "Password", type: "password", placeholder: "Create password" },
+  { name: "confirmPassword", label: "Confirm password", type: "password", placeholder: "Confirm password" },
+];
+
+export const candidateProfilePreview = [
+  { label: "Full name", value: "Candidate Name" },
+  { label: "Email", value: "candidate@example.com" },
+  { label: "Phone", value: "+91 98765 43210" },
+  { label: "Gender", value: "Not selected" },
+  { label: "Coordinator", value: "Internix Coordinator" },
+  { label: "Company hired in", value: "Company Name" },
+];
+
+export const placementFeeDetails = [
+  { label: "Candidate", value: "Candidate Name" },
+  { label: "Email", value: "candidate@example.com" },
+  { label: "Phone", value: "+91 98765 43210" },
+  { label: "Company hired in", value: "Company Name" },
+  { label: "Payment purpose", value: "Placement Fees" },
+];
+
 export const focusAreas = ["AI", "Blockchain", "Web3", "Internships", "Recruitment", "Placement"];
 
 export const stats = [
@@ -161,6 +189,7 @@ export const footerGroups = [
     title: "For Candidates",
     links: [
       { label: "Apply for Roles", href: "/candidate" },
+      { label: "Register Candidate", href: "/register" },
       { label: "Interview Prep", href: "/candidate" },
       { label: "Placement Support", href: "/candidate" },
     ],

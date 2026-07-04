@@ -54,6 +54,12 @@ export function Header() {
               {link.label}
             </Link>
           ))}
+          <Link href="/login" className="btn-secondary min-h-11 px-5">
+            Login
+          </Link>
+          <Link href="/register" className="btn-primary min-h-11 px-5">
+            Register
+          </Link>
         </nav>
 
         <details className="group relative md:hidden">
@@ -86,6 +92,12 @@ export function Header() {
             </nav>
             <Link href="/contact" className="btn-primary mt-3 w-full">
               Contact us
+            </Link>
+            <Link href="/login" className="btn-secondary mt-2 w-full">
+              Login
+            </Link>
+            <Link href="/register" className="btn-secondary mt-2 w-full">
+              Register
             </Link>
           </div>
         </details>
@@ -138,6 +150,9 @@ export function Footer() {
             </Link>
             <Link href="/candidate" className="transition hover:text-[#1a73e8]">
               Apply as Candidate
+            </Link>
+            <Link href="/register" className="transition hover:text-[#1a73e8]">
+              Register Candidate
             </Link>
             <Link href="/contact" className="transition hover:text-[#1a73e8]">
               Contact
