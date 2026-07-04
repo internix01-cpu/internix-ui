@@ -28,7 +28,7 @@ type ApiOptions = RequestInit & {
   auth?: boolean;
 };
 
-const API_URL = process.env.NEXT_PUBLIC_API_URL || "http://localhost:5001";
+const API_URL = process.env.NEXT_PUBLIC_API_URL || "https://internix-api.onrender.com";
 
 export async function apiFetch<T>(path: string, options: ApiOptions = {}): Promise<T> {
   const token = typeof window !== "undefined" ? localStorage.getItem("internix_token") : null;
